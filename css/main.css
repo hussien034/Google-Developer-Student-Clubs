@@ -1,0 +1,227 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.logo{
+    width:260px;
+    height:20px;
+}
+.nav-link{
+    color: white !important;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size:20px;
+
+}
+.navbar-toggler{
+    background-color: white;
+}
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3F4;
+  }
+  
+  .ball {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    margin: 0 10px;
+    
+    animation: 2s bounce ease infinite;
+  }
+  
+  .blue {
+    background-color: #4285F5;
+  }
+  
+  .red {
+    background-color: #EA4436;
+    animation-delay: .25s;
+  }
+  
+  .yellow {
+    background-color: #FBBD06;
+    animation-delay: .5s;
+  }
+  
+  .green {
+    background-color: #34A952;
+    animation-delay: .75s;
+  }
+  
+  @keyframes bounce {  
+      50% {
+          transform: translateY(25px);
+      }
+  }
+#background-video {
+    width: 100%;
+    height:100% !important;
+    object-fit:cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+i{
+    font-size:18px;
+    background-color:#4285F4;
+    padding:10px;
+    border-radius: 50%;
+    color: white;
+}
+h2 ,h3 ,h4{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#home{
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    height: 100vh !important;
+    overflow: hidden;
+}
+nav{
+    position: fixed !important;
+    width: 100%;
+    z-index: 11111111111111;
+}
+.target{
+    font-size: 40px;
+}
+.btn-1{
+    background-color: white;
+    padding:15px ;
+}
+.btn-1:hover{
+    background-color:transparent;
+    color: white;
+}
+.btn-1:hover a{
+    color: white;
+} 
+a{
+    text-decoration: none;
+}
+.des-1{
+    height:90vh;
+}
+/*---------the end of home--------------*/
+/*-------the about section--------------*/
+#About{
+    background-color: #F1F3F4;
+padding:40px;
+}
+/*------the end of about----------------*/
+/*------the start of why section--------*/
+#Why{
+    background-color: #1E8E3E;
+    color: white;
+    padding:10px;
+    height: auto;
+}
+h3{
+    font-size:35px;
+}
+/*--------the end of why--------------*/
+/*--------the start of Tracks---------*/
+#Tracks{
+    padding:40px;
+}
+#Tracks img{
+    width:50% ;
+}
+.img-ml{
+    width:30% !important;
+}
+#Tracks .col-md-4{
+    padding:30px;
+    height:450px;
+}
+.col-md-12 h4{
+    font-size:50px;
+}
+.img-cont{
+    height:150px ;
+    text-align: center;
+}
+.div-1{
+    background-color: #F1F3F4;
+    padding: 20px;
+    height:400px;
+    transition: all 0.5s;
+}
+@media all and (max-width:400px){
+    .div-1{
+        background-color: #F1F3F4;
+        padding:10px;
+        height:425px;
+        font-size:16px;
+        transition: all 0.5s;
+    }
+    .img-cont{
+        height:90px ;
+        text-align: center;
+    }
+}
+#Tracks .div-1:hover{
+    background-color: #4285F4;
+    transform: scale(1.1);
+    color: white;
+ }
+ #carouselExampleDark{
+    height: 100vh !important;
+ }
+ .carousel-inner{
+    height:100% !important;
+ }
+ .carousel-caption{
+    color: white !important;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size:40px;
+ }
+ h5{
+    font-size:40px;
+ }
+ .item-1{
+        background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.1)),
+          url('../images/2.jpg');
+      
+    background-size: 100% 100%;
+    height: 100%;
+ }
+ .item-2{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.1)),
+    url('../images/3.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+ }
+ .item-3{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.1)),
+    url('../images/4.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+ }
+ #Goals{
+    padding:40px;
+    background-color:#F1F3F4;
+ }
+ .google{
+    font-size:25px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+ }
+ #End{
+    height:25vh;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.4)),
+    url('../images/GDSC\ cairo\ university\ horizontal\ color\ \(6\).png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
